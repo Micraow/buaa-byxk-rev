@@ -1,0 +1,13 @@
+.worktrees/
+output/
+
+# Python cache / env
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Local secrets/config
+.env
+.env.local
+.env.*.local
