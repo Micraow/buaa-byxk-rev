@@ -1,0 +1,19 @@
+{
+  "login": {
+    "method": "POST",
+    "path": "",
+    "required_headers": [],
+    "required_params": [],
+    "signature_rule": null
+  },
+  "list_courses": {
+    "method": "GET",
+    "path": "",
+    "required_headers": [],
+    "required_params": [],
+    "signature_rule": null
+  },
+  "course_detail": null,
+  "enroll": null,
+  "my_selected_courses": null
+}

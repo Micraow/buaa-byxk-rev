@@ -30,8 +30,9 @@ class EnrollExecutor:
                 "course_name": course.name,
             }
 
+        clazz_type = str(course.raw.get("teachingClassType") or "XGKC")
         result = self.course_client.enroll(
-            clazz_type="XGKC",
+            clazz_type=clazz_type,
             clazz_id=course.course_id,
             secret_val=course.secret_val,
             batch_id=self.batch_id,
